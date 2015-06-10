@@ -12,6 +12,8 @@
 
 ####创建本地版本库
 	$ git init
+####查看工作区状态
+    $ git status
 ####把工作区(workspace)文件放入暂存区(stage/index)
     $ git add files 
     $ git add .         //modified + new
