@@ -32,7 +32,7 @@
     $ git reset --hard HEAD^                //回退到上一个 版本
 
 
-##远程协作
+##远程关联
 
 ####关联到远程克隆
     $ git remote add origin url
