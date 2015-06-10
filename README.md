@@ -32,6 +32,16 @@
     $ git reset --hard HEAD^                //回退到上一个 版本
 
 
+##远程协作
+
+####关联到远程克隆
+    $ git remote add origin url
+####从远程克隆
+    $ git clone url
+####查看remote信息
+    $ git remote -v
+
+
 ##分支管理
 
 ####查看当前所有分支
@@ -51,17 +61,6 @@
 
 
 ##标签管理
-
-
-
-
-##远程协作
-####1.关联到远程克隆
-    $ git remote add origin git@github.com:xuanrljp/gitlab.git    
-####2.从远程克隆
-    $ git clone git@github.com:xuanrljp/gitlab.git
-####3.查看remote信息
-    $ git remote -v
 
 
 ##冲突解决
