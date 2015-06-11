@@ -26,7 +26,8 @@
     $ git log --oneline     //一行显示
     $ git reflog            //每一次命令的日志
 ####恢复修改
-    $ git checkout -- file                  //从Stage恢复文件到工作区
+    $ git rm --cached [file_name]           //删除stage的文件
+    $ git checkout -- file                  //从stage恢复文件到工作区
     $ git checkout [commit_id] [file_name]  //回退指定版本
     $ git reset --hard [commit_id]          //回退指定版本
     $ git reset --hard HEAD^                //回退到上一个 版本
