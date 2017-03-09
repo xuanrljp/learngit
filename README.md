@@ -15,7 +15,7 @@
 ####查看工作区状态
     $ git status
 ####把工作区(workspace)文件放入暂存区(stage/index)
-    $ git add files 
+    $ git add files
     $ git add .         //modified + new
     $ git add -u        //modified + deleted
     $ git add -A        //modified + +new + deleted
@@ -50,10 +50,11 @@
     $ git branch -r     //远程分支一览
     $ git branch -a     //本地 + 远程分支一览
 ####切换分支
-    $ git checkout <branch>    
+    $ git checkout <branch>
 ####创建分支
     git branch <branch>
     $ git checkout -b <branch>   //git branch <branch> + git checkout <branch> //创建+切换
+    $ git checkout -b <branch> origin/<remote_branch>  //checkout branch from remote
 ####合并分支
     $ git merge 目标<branch>     //合并指定分支到当前分支
 ####删除分支
